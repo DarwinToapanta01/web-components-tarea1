@@ -12,11 +12,11 @@ Dicho objeticvo de la tarea es poder crear un componente personalizado funcional
 
 ## 💡 Uso
 
-Para usar el componente en tu proyecto HTML:
+Para usar el componente en tu proyecto HTML puedes seguir el ejemplo como el mio:
 
 ```html
 <tarjeta-usuario>
-  <img slot="imagen" src="img/perfil.jpg" alt="Mi foto" />
-  <h2 slot="titulo">Toapanta Paez Darwin Andrés</h2>
-  <p slot="contenido">Estudiante de Programación Integrativa</p>
+  <img slot="imagen" src="ruta de imagen" alt="Mi foto" />
+  <h2 slot="titulo">Tu nombre o un titutlo</h2>
+  <p slot="contenido">contenido describiendo el titulo o imagen</p>
 </tarjeta-usuario>
