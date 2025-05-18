@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Tarea 2</title>
+    <style>
+        img {
+            display: block;
+            width: 10%;
+            height: 10%;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <tarjeta-usuario id="miTarjeta">
+        <img src="perfil.jpg" alt="mi foto" slot="foto" />
+        <h2 slot="contenido">Toapanta Paez Darwin Andres</h2>
+        <p slot="titulo">Esta es la tarea de Programación...</p>
+    </tarjeta-usuario>
+
+    <formulario-cambio>
+        <button slot="boton-enviar">Actualizar Nombre</button>
+    </formulario-cambio>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
